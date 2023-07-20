@@ -15,7 +15,7 @@ export default function Home() {
         {/* pointer-events-none lets the user click through the element */}
         <div className="lg:pl-24 pointer-events-none lg:pt-12  lg:pb-0 fixed bottom-0 left-0 flex h-28 lg:gap-4 gap-8 w-full items-end justify-center bg-gradient-to-t from-background via-background to-transparent lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className=" lg:pointer-events-auto "
+            className=" pointer-events-auto "
             href="https://twitter.com/mwalts0"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default function Home() {
             <TwitterLogoIcon className="lg:w-8 lg:h-8 h-10 w-10 pb-2 hover:text-blue-600" />
           </a>
           <a
-            className="lg:pointer-events-auto "
+            className="pointer-events-auto "
             href="https://github.com/maxwalts"
             target="_blank"
             rel="noopener noreferrer"
