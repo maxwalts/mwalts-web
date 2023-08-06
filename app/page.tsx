@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       <InlineWidget
-        url="https://calendly.com/max-walts/consulting-call"
+        url="https://calendly.com/max-walts/chat"
         styles={{
           height: '95vh',
           overflow: 'hidden',
