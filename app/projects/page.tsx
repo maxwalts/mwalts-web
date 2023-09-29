@@ -1,12 +1,11 @@
 "use client"
 import Image from 'next/image'
-import { InlineWidget } from 'react-calendly'
 import { TwitterLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons'
 import { Navbar } from '@/components/navbar'
 
 
 
-export default function Home() {
+export default function Projects() {
   return (
     <main className="">
       <Navbar />

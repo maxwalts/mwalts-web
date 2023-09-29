@@ -1,4 +1,4 @@
-import './globals.css'
+import "../globals.css"
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from "@/components/theme-provider"
@@ -6,11 +6,11 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Max Walts',
-  description: "Personal Website",
+  title: 'Max Walts | Projects',
+  // description: "",
 }
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode

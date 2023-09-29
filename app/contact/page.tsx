@@ -6,7 +6,7 @@ import { Navbar } from '@/components/navbar'
 
 
 
-export default function Home() {
+export default function Contact() {
   return (
     <main className="">
       <Navbar />
@@ -37,8 +37,13 @@ export default function Home() {
 
       </div>
 
-
-
+      <InlineWidget
+        url="https://calendly.com/max-walts/chat"
+        styles={{
+          height: '95vh',
+          overflow: 'hidden',
+        }}
+      />
     </main>
   )
 }
